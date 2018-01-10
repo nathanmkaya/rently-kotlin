@@ -1,0 +1,39 @@
+{{>layout/header}}
+<body>
+<div class="container h-100 d-flex justify-content-center">
+    <div class="my-auto custom-form">
+        <h1>Register</h1>
+        <form role="form" action="" method="post" class="registration-form">
+            <div class="form-group">
+                <label for="form-first-name">First name</label>
+                <input type="text" name="form-first-name" placeholder="First name" class="form-first-name form-control" id="form-first-name">
+            </div>
+            <div class="form-group">
+                <label for="form-last-name">Last name</label>
+                <input type="text" name="form-last-name" placeholder="Last name" class="form-last-name form-control" id="form-last-name">
+            </div>
+            <div class="form-group">
+                <label for="form-email">Email</label>
+                <input type="email" name="form-email" placeholder="Email" class="form-email form-control" id="form-email">
+            </div>
+            <div class="form-group">
+                <label for="user-type">User Type</label>
+                <select class="form-control" id="user-type">
+                    <option>Agent</option>
+                    <option>Client</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="user-password">Password</label>
+                <input type="password" placeholder="Password" class="form-control" id="user-password">
+            </div>
+            <div class="form-group">
+                <label for="user-password-confirm">Confirm Password</label>
+                <input type="password" placeholder="Confirm Password" class="form-control" id="user-password-confirm">
+            </div>
+            <button type="submit" class="btn btn-primary">Sign me up!</button>
+        </form>
+    </div>
+</div>
+</body>
+{{>layout/footer}}

@@ -1,0 +1,32 @@
+{{>layout/header}}
+<body>
+<div class="container h-100 d-flex justify-content-center">
+    <div class="my-auto custom-form">
+        <h1>Add Property</h1>
+        <form role="form" action="" method="post" class="registration-form">
+            <div class="form-group">
+                <label for="property-location">Location</label>
+                <input type="text" name="form-first-name" placeholder="Location" class="form-control" id="property-location">
+            </div>
+            <div class="form-group">
+                <label for="property-rooms">No. of Rooms</label>
+                <input type="text" name="form-last-name" placeholder="No. of Rooms" class="form-control" id="property-rooms">
+            </div>
+            <div class="form-group">
+                <label for="property-size">Size</label>
+                <input type="text" name="form-email" placeholder="Size" class="form-control" id="property-size">
+            </div>
+            <div class="form-group">
+                <label for="property-type">Property Type</label>
+                <select class="form-control" id="property-type">
+                    <option>Rental</option>
+                    <option>For Sale</option>
+                    <option>For Lease</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Add Property</button>
+        </form>
+    </div>
+</div>
+</body>
+{{>layout/footer}}
